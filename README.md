@@ -1,62 +1,33 @@
 # REST Quiz
 
-We've learned about [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) as it applies to web development, and now it's time to test that knowledge! Choose the best answer(s) for each question below. 
-
 ???
 
-# REST Quiz
+# Joke Quiz
 
-?: Given a service that lists sandwiches, what action would we perform to get all of the sandwiches?
+?: What diet did the ghost developer go on?
 
-( ) `POST /sandwich`
-( ) `GET /allsandwiches`
-(X) `GET /sandwiches`
+(X) Boolean
+( ) No diet, he's a ghost
+( ) Ghouls
 
 
-?: Given the same service of sandwiches, what would the action look like if we specifically wanted a BLT?
+?: Why did 10 get paid less than "10"?
 
-( ) `GET /blt`
-(X) `GET /sandwiches/blt`
-( ) `PUT /blt`
+( ) `It didn't`
+(X) `There was workplace inequality`
+( ) `Is this a real joke?`
 
-?: Given a service that returns information about cars, including the various drivers of each car, what might the URI look like for getting the second driver of the third car?
+?: Why was the function sad after a successful first call?
 
-( ) /cars/1/drivers/2
-( ) /cars3drivers2
-( ) /cars/2/drivers/3
-(X) /cars/3/drivers/2
+(X) He didn't get a callback
+( ) He wasn't sad. He got called!
 
-?: Given the same service, what might the URL look like for getting all of the drivers of the fifth car?
+?: Why did the angry function exceed the callstack size?
 
-( ) /cars/1/driversall
-( ) /cars5/drivers
-(X) /cars/5/drivers
-( ) /cars/5/alldrivers
-
-?: What HTTP verb is typically used to create something new?
-
-( ) PUT
-(X) POST
-( ) GET
-( ) DELETE
-
-?: What HTTP verb is typically used to update something?
-
-(X) PUT
-( ) POST
-( ) GET
-( ) DELETE
-
-?: What HTTP verb is typically used to delete something?
-
-( ) PUT
-( ) POST
-( ) GET
-(X) DELETE
-
-???
-
+( ) Stack overflow
+(X) He got into an Argument with himself
+( ) lol
 
 ## Resources
 
-- [Wikipedia: REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
+- [Wes Bos Dad Jokes](https://github.com/wesbos/dad-jokes)
